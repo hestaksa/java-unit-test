@@ -24,7 +24,7 @@ public class CheckIsAdultTest {
         Program program = new Program();
         // Передай сюда возраст пользователя
         boolean isAdult = program.checkIsAdult(age);
-        // Сравни полученный и ожидаемый результаты, не забудь про сообщение об ошибке
+        // Сравни полученный и ожидаемый результаты, не забудь про сообщение об ошибке 11111
         assertEquals("Неверный текст ошибки!", result, isAdult );
     }
 
